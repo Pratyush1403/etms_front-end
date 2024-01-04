@@ -30,7 +30,7 @@ const Signin = () => {
                 const result = response.data;
                 console.log(result);
 
-                if (result.result = "No User Found") {
+                if (result.result === "No User Found") {
                     toast.error('Invalid user name or password');
                 }
                 else {
