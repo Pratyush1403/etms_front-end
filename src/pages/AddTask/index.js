@@ -39,7 +39,7 @@ const AddTask = () => {
                 startDate,
                 dueDate,
                 description,
-                userId: sessionStorage['projectId'],
+                projectId: sessionStorage['projectId'],
                 userId: sessionStorage['empId'],
             }
 
